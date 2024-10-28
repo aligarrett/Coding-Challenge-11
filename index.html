@@ -8,6 +8,7 @@
 <body>
     <h2>Place Your Order</h2>
     
+    <!-- Dropdown to select a product -->
     <label for="product-selector">Select a Product:</label>
     <select id="product-selector">
         <option value="15">Makeup Brush - $15</option>
@@ -15,13 +16,17 @@
         <option value="5">Eyelash Curler - $5</option>
     </select>
     
+    <!-- Input field for entering product quantity -->
     <label for="quantity">Quantity:</label>
     <input type="number" id="quantity" value="1" min="1">
     
+    <!-- Paragraph to display the total price -->
     <p>Total Price: $<span id="total-price">10</span></p>
     
+    <!-- Button to place the order -->
     <button id="place-order">Place Order</button>
     
+    <!-- Placeholder for the order summary -->
     <p id="order-summary"></p>
     
     <script src="main.js"></script>
