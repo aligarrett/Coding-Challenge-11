@@ -20,7 +20,7 @@ function updateTotalPrice() {
 
 // Add event listeners for dynamic updates
 productSelector.addEventListener('change', updateTotalPrice); // Update when product is changed
-quantityInput.addEventListener('input', updateTotalPrice); // Updare when quantity is changed
+quantityInput.addEventListener('input', updateTotalPrice); // Update when quantity is changed
 
 // Task 4: Handle Order Submission
 
